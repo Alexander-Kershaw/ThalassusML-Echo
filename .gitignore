@@ -1,0 +1,50 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Environments
+.venv/
+venv/
+env/
+.env
+.conda/
+*.conda
+*.egg-info/
+dist/
+build/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Large / generated artifacts
+data/
+models/
+*.pt
+*.pth
+*.onnx
+*.npy
+*.npz
+
+# Logs
+*.log
+
+# Secrets / tokens
+.kaggle/
+kaggle.json
+**/kaggle.json
+.huggingface/
+**/token
+**/HF_TOKEN
+
